@@ -177,7 +177,7 @@ setup.kibana:
 #--------------------------- Kafka --------------------------------------------
 
 output.kafka:
-  hosts: ["192.168.88.150:9092"]
+  hosts: ["{{LOGSTASH_HOST}}:{{LOGSTASH_PORT}}"]
   topic: "log-system"
   codec.json:
     pretty: false
