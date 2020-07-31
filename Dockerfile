@@ -5,7 +5,7 @@ FROM    alpine:3.3
 
 
 # Build variables
-ENV     FILEBEAT_VERSION 1.1.1
+ENV     FILEBEAT_VERSION 6.8.10
 ENV     FILEBEAT_URL https://download.elastic.co/beats/filebeat/filebeat-${FILEBEAT_VERSION}-x86_64.tar.gz
 
 # Environment variables
